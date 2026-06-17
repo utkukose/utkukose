@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated typing header -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&multiline=true&width=700&height=80&lines=Prof.+Dr.+Utku+K%C3%B6se+%F0%9F%91%8B;AI+%7C+XAI+%7C+Digital+Twins+%7C+Drug+Repositioning)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&multiline=true&width=700&height=80&lines=Prof.+Dr.+Utku+K%C3%B6se+%F0%9F%91%8B;AI+%7C+XAI+%7C+Digital+Twin)](https://git.io/typing-svg)
 
 <!-- Profile views counter -->
 ![Profile Views](https://komarev.com/ghpvc/?username=utkukose&color=3b82f6&style=flat-square&label=Profile+Views)
@@ -12,7 +12,7 @@
 
 ### 🎓 About Me
 
-I am a **Computer Engineering Professor** and AI researcher working at the intersection of **Explainable AI (XAI)**, **Digital Twins**, and **clinical decision support systems**.
+I am a **Computer Engineering Professor** and AI researcher working at the intersection of **Explainable AI (XAI)**, **Digital Twins**, **interdisciplinary AI applications**, **AI in biomedical / healthcare** and **decision support systems**.
 
 - 🏫 **Süleyman Demirel University** — Isparta, Turkey *(primary affiliation)*
 - 🌎 **Universidad Panamericana** — Mexico City, Mexico
