@@ -18,7 +18,9 @@ IEEE Senior Member · ACM Professional Member · Associate Editor, *IEEE Access*
 </div>
 
 > [!NOTE]
-> **Upcoming workshop, 28 October 2026:** *Explainable Artificial Intelligence in Medical Systems: From Black Box Models to Reliable Clinical Decision Support*. The workshop is part of [IEEE CARS 2026](https://ieee-cars.org/program/workshops/workshop-explainable-artificial-intelligence-in-m), organised by the Center for Cyber Security Research (C2SR) of the University of North Dakota in Grand Forks, ND, USA, and the session is online. The complete material is open in the [workshop repository](https://github.com/utkukose/xai-cars2026-NB-workshop), and the [XAI Lab](https://utkukose.github.io/xai-cars2026-NB-workshop/) runs in the browser.
+> **Upcoming workshops, 28 October 2026:** Two online workshops are part of [IEEE CARS 2026](https://ieee-cars.org), organised by the Center for Cyber Security Research (C2SR) of the University of North Dakota in Grand Forks, ND, USA.
+> - *Explainable Artificial Intelligence in Medical Systems: From Black Box Models to Reliable Clinical Decision Support*. The complete material is open in the [workshop repository](https://github.com/utkukose/xai-cars2026-NB-workshop), and the [XAI Lab](https://utkukose.github.io/xai-cars2026-NB-workshop/) runs in the browser.
+> - *Cybersecurity in the Age of AI Assistants: What Everyone Should Know*. The [workshop site](https://utkukose.github.io/ticket-zero-cars2026-NB-workshop/) teaches prompt injection attacks and defences, and the session closes with Ticket Zero, a live capture-the-flag game whose full source is in the [workshop repository](https://github.com/utkukose/ticket-zero-cars2026-NB-workshop).
 
 ---
 
@@ -26,7 +28,7 @@ IEEE Senior Member · ACM Professional Member · Associate Editor, *IEEE Access*
 
 Utku Köse is a Full Professor of Computer Engineering and an AI researcher. His work lies at the intersection of explainable AI (XAI), digital twins, interdisciplinary AI applications, AI in biomedical and healthcare settings, and decision support systems. He is the Principal Investigator of STING DSS (TÜBİTAK 1001, Project No. 123E383), a decision support system for drug repositioning in childhood acute lymphoblastic leukemia. He also develops two open-source Python libraries: GEMEX for the geometric explanation of machine learning models and PharmODE for the identification of PK/PD models.
 
-His research interests cover explainable AI with geodesic and Riemannian information geometry methods, clinical decision support, drug repositioning and pediatric oncology. They extend to digital twins, deep learning architectures such as GNN, GAN and Bi-LSTM, and pharmacokinetic and pharmacodynamic modelling with ODEs and Neural ODEs. Further topics are adversarial machine learning, the security of cyber-physical systems, LLM safety and hallucination, edge AI, embedded systems and rehabilitation robotics. Recent repositories add work on the alignment of language models, machine ethics and agent-based simulation for policy analysis.
+His research interests cover explainable AI with geodesic and Riemannian information geometry methods, clinical decision support, drug repositioning and pediatric oncology. They extend to digital twins, deep learning architectures such as GNN, GAN and Bi-LSTM, and pharmacokinetic and pharmacodynamic modelling with ODEs and Neural ODEs. Further topics are adversarial machine learning, the security of cyber-physical systems, LLM safety and hallucination, edge AI, embedded systems and rehabilitation robotics. Recent repositories add work on the alignment of language models, machine ethics, the security of AI assistants against prompt injection, the measurement of AI literacy with digital twins and agent-based simulation for policy analysis.
 
 A large part of the repositories on this page is open courseware. Most courses are published with lecture pages, Colab notebooks and interactive labs that run in the browser, so that the material can be followed in class or studied independently.
 
@@ -34,7 +36,7 @@ A large part of the repositories on this page is open courseware. Most courses a
 
 | Publications | h-index | PyPI libraries | Open courses and workshops | Interactive simulators and demos |
 |:-:|:-:|:-:|:-:|:-:|
-| **350+** | **43** | [**2**](#research-libraries-and-clinical-systems) | [**10**](#open-courseware) | [**9**](#simulators-and-interactive-demos) |
+| **350+** | **43** | [**2**](#research-libraries-and-clinical-systems) | [**11**](#open-courseware) | [**9**](#simulators-and-interactive-demos) |
 
 </div>
 
@@ -71,6 +73,7 @@ The courses and workshops below are open under the licences stated in each repos
 | **Reinforcement Learning and Language Model Alignment**<br>VTR UGE 21 | Vel Tech University, Chennai, India, value added course, 5 days. One environment, TokenWorld, carries the week from Bellman equations and policy gradients to reward models and direct preference optimisation. | [Repository](https://github.com/utkukose/rl-alignment-veltech-NB-lecture)<br>[Course&nbsp;site](https://utkukose.github.io/rl-alignment-veltech-NB-lecture/) |
 | **Digitalization, AI, and XAI: Strategies for the Transformation of the Healthcare Sector** | Universidad Panamericana, Mexico City, Mexico, graduate. The 23 Jupyter notebooks in 6 modules cover more than 20 XAI methods, from glass-box models to fetal echocardiography. | [Repository](https://github.com/utkukose/xai-healthcare-NB-lecture) |
 | **Explainable Artificial Intelligence in Medical Systems**<br>IEEE CARS 2026 workshop | IEEE CARS 2026, Grand Forks, ND, USA, organised by the Center for Cyber Security Research (C2SR) of the University of North Dakota. The 2-hour online session on 28 October 2026 uses 7 Colab notebooks, the browser-based XAI Lab and a Streamlit dashboard, all on real open datasets. | [Repository](https://github.com/utkukose/xai-cars2026-NB-workshop)<br>[XAI&nbsp;Lab](https://utkukose.github.io/xai-cars2026-NB-workshop/) |
+| **Cybersecurity in the Age of AI Assistants: What Everyone Should Know**<br>IEEE CARS 2026 workshop | IEEE CARS 2026, Grand Forks, ND, USA, organised by the Center for Cyber Security Research (C2SR) of the University of North Dakota. The 1-hour online session on 28 October 2026 teaches prompt injection attacks and defences on interactive pages, then runs them live in Ticket Zero, a capture-the-flag game where participants attack and defend a simulated support agent on a shared pixel-art wall with a live leaderboard. | [Repository](https://github.com/utkukose/ticket-zero-cars2026-NB-workshop)<br>[Workshop&nbsp;site](https://utkukose.github.io/ticket-zero-cars2026-NB-workshop/) |
 | **Clinical Decision Support Systems with Generative AI**<br>Lecture and workshop | Technology and Artificial Intelligence Literacy Training in Health Sciences, Akdeniz University, Antalya, Türkiye, 16 and 18 September 2026. The 6 workshop notebooks, each in English and Turkish, guide participants to a working prototype with generative AI tools. | [Repository](https://github.com/utkukose/cdss-genai-NB-lecture) |
 
 ---
@@ -95,12 +98,13 @@ Most of the applications below run in the browser without installation, several 
 
 ### Research code and tools
 
-The repositories below hold the companion code of published studies and one event management platform.
+The repositories below hold the companion code of published studies, a campus AI literacy platform and one event management platform.
 
 | Project | Description | Links |
 |---|---|---|
 | **Persona Vectors in Controlling Hallucination of LLMs** | Companion code of the IEEE CARS 2025 paper on persona settings and hallucination in small LLMs, evaluated on TruthfulQA and the unanswerable subset of SQuAD v2 [4]. | [Repository](https://github.com/utkukose/llm_persona_hallucination_study) |
 | **Synthetic Health Tourist Generator and Analyzer** | Synthetic health tourist profiling from small data. A few-shot autoencoder and variational autoencoder pipeline generates profiles, a language model scores them, and PCA with KMeans maps the population [5]. Joint work with Gamze Köse. | [Repository](https://github.com/utkukose/synthetic_health_tourist) |
+| **AI Literacy Digital Twin**<br>SDÜ YAZEM | Case-based AI literacy platform with personal and campus digital twins, developed for the AI Application and Research Center (YAZEM) of Süleyman Demirel University. More than 150 campus cases measure seven areas of AI literacy, the twin seals each prediction with a cryptographic hash before the answer, and a live campus map shows the campus twin without exposing any individual. No generative AI runs inside the platform. Built with FastAPI, PostgreSQL and React, in Turkish and English, and published as source-available for viewing. Joint work with Enes Şenol. | [Repository](https://github.com/utkukose/AI-Literacy-Digital-Twin) |
 | **ALEV** | Adaptive Live Event Venue: A gamification and event management platform that runs hackathons and team events on Telegram, built with FastAPI, PostgreSQL and Docker. | [Repository](https://github.com/utkukose/ALEV) |
 
 ---
@@ -207,4 +211,4 @@ If any of these projects is useful, a star on the repository is appreciated.
 
 ### Acknowledgments
 
-The STING DSS project is supported by the Scientific and Technological Research Council of Türkiye (TÜBİTAK) under the 1001 Programme, Project No. 123E383. The courses on this page were prepared for Süleyman Demirel University, Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology and Universidad Panamericana. The workshops belong to programmes hosted by Akdeniz University and by the Center for Cyber Security Research (C2SR) of the University of North Dakota. The health tourism studies are joint work with Gamze Köse. This page relies on the open-source tools snk, Readme Typing SVG, GitHub Readme Streak Stats, GitHub Stats Extended, GitHub Profile Views Counter and Shields.io.
+The STING DSS project is supported by the Scientific and Technological Research Council of Türkiye (TÜBİTAK) under the 1001 Programme, Project No. 123E383. The courses on this page were prepared for Süleyman Demirel University, Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology and Universidad Panamericana. The workshops belong to programmes hosted by Akdeniz University and by the Center for Cyber Security Research (C2SR) of the University of North Dakota. The AI Literacy Digital Twin platform was developed with Enes Şenol for the AI Application and Research Center (YAZEM) of Süleyman Demirel University. The health tourism studies are joint work with Gamze Köse. This page relies on the open-source tools snk, Readme Typing SVG, GitHub Readme Streak Stats, GitHub Stats Extended, GitHub Profile Views Counter and Shields.io.
